@@ -4,8 +4,8 @@ import routes from './src/routes/userRoutes.js';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 
-import swaggerJsdoc from 'swagger';
-import swaggerUi from 'swagger';
+import swaggerUi from 'swagger-ui-express'
+import swaggerJsdoc from 'swagger-jsdoc'
 
 const options = {
   definition: {
